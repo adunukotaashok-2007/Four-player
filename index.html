@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Multiplayer Game Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎮 Multiplayer Game Hub</h1>
+        <p>Play games with your friends</p>
+    </header>
+
+    <section class="room-buttons">
+        <button onclick="createRoom()">➕ Create Room</button>
+        <button onclick="joinRoom()">🚪 Join Room</button>
+    </section>
+
+    <h2>🎮 Choose Your Game</h2>
+
+    <div class="games">
+
+        <div class="game" onclick="openGame('Tic-Tac-Toe')">
+            <span>❌⭕</span>
+            <h3>Tic-Tac-Toe</h3>
+            <p>2 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Chess')">
+            <span>♟️</span>
+            <h3>Chess</h3>
+            <p>2 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Ludo')">
+            <span>🎲</span>
+            <h3>Ludo</h3>
+            <p>2–6 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Connect Four')">
+            <span>🟡</span>
+            <h3>Connect Four</h3>
+            <p>2 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Carrom')">
+            <span>🎯</span>
+            <h3>Carrom</h3>
+            <p>2–4 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Quiz Battle')">
+            <span>🧠</span>
+            <h3>Quiz Battle</h3>
+            <p>2–6 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Snake')">
+            <span>🐍</span>
+            <h3>Snake</h3>
+            <p>2–4 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Racing')">
+            <span>🏎️</span>
+            <h3>Racing</h3>
+            <p>2–6 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Memory Game')">
+            <span>🃏</span>
+            <h3>Memory Game</h3>
+            <p>2–6 Players</p>
+        </div>
+
+        <div class="game" onclick="openGame('Treasure Hunt')">
+            <span>🏴‍☠️</span>
+            <h3>Treasure Hunt</h3>
+            <p>2–6 Players</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Multiplayer Game Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+  </html>
