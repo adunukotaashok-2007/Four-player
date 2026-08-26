@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #101820;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px 15px;
+    background: #1f2937;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+.room-buttons {
+    margin: 25px 10px;
+}
+
+button {
+    padding: 13px 22px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+h2 {
+    margin: 25px 0;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.game {
+    background: #1e293b;
+    padding: 25px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.game:hover {
+    transform: scale(1.05);
+    background: #334155;
+}
+
+.game span {
+    font-size: 45px;
+}
+
+.game h3 {
+    margin: 10px 0;
+}
+
+.game p {
+    color: #cbd5e1;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: #1f2937;
+}
